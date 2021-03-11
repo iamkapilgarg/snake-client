@@ -16,7 +16,7 @@ const connect = function() {
     setTimeout(() => {
       conn.write('Move: up');
       console.log('Move up');
-    }, i * 1000);
+    }, i * 500);
   };
   
   for (let i = 1; i <= 10; ++i) {
